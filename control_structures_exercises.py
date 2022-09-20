@@ -129,4 +129,9 @@ for numbers in range(1,100):
 #4
 
 print('Please enter an integer')
-
+user_num = int(input)
+for i in range(1, user_num + 1):
+    print(f'{i}  | {i**2}  | {i**3}')
+user_yn = input('Continue?')
+if user_yn = 'no':
+    break
